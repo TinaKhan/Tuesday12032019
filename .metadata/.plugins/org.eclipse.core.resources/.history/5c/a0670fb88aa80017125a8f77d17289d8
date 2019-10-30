@@ -1,0 +1,21 @@
+package practice;
+
+public class Tues {
+	
+	static int i;
+	static String Name;
+	static float f;
+	static double d;
+
+	public static void main(String[] args) {
+		{
+             Tues onject=new Tues();
+             System.out.println( i);
+             System.out.println( name);
+             System.out.println( f);
+             System.out.println( d);
+             
+	}
+
+}
+}

@@ -1,0 +1,32 @@
+package ratan_practise;
+class X{}
+class Emp{}
+class Y {}
+class Student{}
+ class Test {
+	void m1(X x,Emp e)
+	{System.out.println("m1 method");
+	System.out.println(x);
+	System.out.println(e);
+	
+	}
+	
+	static void m2(Y y,Student s)
+	{System.out.println("m2 method");
+	System.out.println(y);
+	System.out.println(s);
+	
+	}
+	
+	public static void main(String[] args) {
+	Test t=new Test();
+	Emp e1=new Emp();
+	X x1=new X();
+	t.m1(x1, e1);
+	Y y =new Y();
+	Student s=new Student();
+	Test.m2(y, s);
+	
+	}
+
+}

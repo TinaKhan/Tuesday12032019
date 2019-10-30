@@ -1,0 +1,15 @@
+package basics;
+
+public class TeamLocal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String team;
+		team="golmal";
+		
+		System.out.println("the name of the team");
+
+	}
+
+}

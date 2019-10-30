@@ -1,0 +1,23 @@
+package basics;
+
+public class loops {
+
+	public static void main(String[] args) {
+	String[] states=new String[6];
+	states[0]="california";
+	states[1]="newyork";
+	states[2]="rhode island";
+	states[3]="delaware";
+	states[4]="virginia";
+	states[5]="maryland";
+	
+	{System.out.println(states[3]);
+	   
+	     
+	}
+	
+	
+	}
+	}
+
+

@@ -1,0 +1,18 @@
+package ratan_practise;
+
+
+ class Test {
+	 int a=1000;
+	int m1(int a)
+	{System.out.println("m1 method");
+	return this.a;
+	}
+	
+	 
+	 public static void main(String[] args) {
+	Test t=new Test();
+	int  x=t.m1(10);
+	System.out.println(x);
+
+ }
+}

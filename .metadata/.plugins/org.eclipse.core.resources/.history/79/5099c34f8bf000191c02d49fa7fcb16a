@@ -1,0 +1,12 @@
+package inheritanceOOP;
+
+public class Father extends Grandfather {
+	public Father()
+	{
+		System.out.println("this is the default constructor from father");	
+	}
+	
+	public void fatherInfo() {
+		System.out.println("My name is Haque and I have 2 sons and 3 daughters");
+	}
+}

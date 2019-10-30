@@ -1,0 +1,28 @@
+package ratan_practise;
+class Test  {
+    int eid;
+    String ename;
+    float esal;
+    Test()
+    {  eid=111;
+     ename="ratan";
+     esal=20000.50f;
+    	
+    }
+    
+    void disp()
+    {System.out.println("0-arg constructue");
+    System.out.println(eid);
+    System.out.println(ename);
+    System.out.println(esal);
+    }
+    
+	 public static void main(String[] args) {
+		 Test t=new Test();
+		 t.disp();
+		 Test t1=new Test();
+		 t1.disp();
+		 
+	
+ }
+}

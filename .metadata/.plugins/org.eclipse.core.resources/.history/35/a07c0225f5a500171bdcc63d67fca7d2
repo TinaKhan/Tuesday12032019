@@ -1,0 +1,32 @@
+package basics;
+
+public class Numberscalc {
+
+	public static void main(String[] args) 
+	{   System.out.println("program has started");
+		printName();
+		int numA=40;
+		int numB=50;
+		addNumbers(numA,numB);
+	}
+		
+		static void printName()
+		{System.out.println("My name is Tanzi");
+		}
+		
+		static void addNumbers(int numberA,int numberB)
+		{ System.out.println("the total number is");
+		int sum=(numberA+numberB);
+		System.out.println("the sum of "+numberA+"and  "+numberB+"  is "+sum);
+			
+		}
+		//multiplyNumbers()
+	}
+	
+	
+	
+
+		
+	
+	
+

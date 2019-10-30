@@ -1,0 +1,24 @@
+package ratan_practise;
+class Test  {
+    int eid;
+   
+    Test(int eid)
+    { this.eid=eid;
+    	
+    }
+    
+    void disp()
+    {
+    System.out.println(eid);
+    
+    }
+    
+	 public static void main(String[] args) {
+		 Test t=new Test(111);
+		 t.disp();
+		// Test t1=new Test(122,"ratna",20000.7f);
+		// t1.disp();
+		 
+	
+ }
+}

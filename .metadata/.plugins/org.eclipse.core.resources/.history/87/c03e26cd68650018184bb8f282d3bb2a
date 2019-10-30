@@ -1,0 +1,25 @@
+package ratan_practise;
+
+
+ class Test {
+	 Test  m1()
+	 {   Test t=new Test();
+		 System.out.println("m1 method");
+	   return t;
+	 }
+	 Test m2()
+	 {   
+		 System.out.println("m2 method");
+		 return this;
+		 
+	 }
+	
+	 
+	 public static void main(String[] args) {
+	Test t1=new Test();
+	Test t2= t1.m1();
+	Test t3=t1.m2();
+	      
+	}
+
+}

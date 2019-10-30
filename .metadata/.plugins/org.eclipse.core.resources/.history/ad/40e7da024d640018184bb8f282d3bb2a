@@ -1,0 +1,25 @@
+package ratan_practise;
+
+
+ class Test {
+	void m1(int a,double d)
+	{System.out.println("m1 method");
+	System.out.println(a);
+	System.out.println(d);
+	
+	}
+	static void m2(String str,char ch)
+	{System.out.println("m2 method");
+	System.out.println(str);
+	System.out.println(ch);
+	}
+	
+	
+	public static void main(String[] args) {
+	Test t=new Test();
+	t.m1(20,100.5);
+	Test.m2("ratan",'n');
+		
+	}
+
+}

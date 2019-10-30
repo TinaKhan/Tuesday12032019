@@ -1,0 +1,9 @@
+package abstraction;
+
+public abstract class Subway {
+	public abstract void ticket();
+	public void faster() {
+		System.out.println("those train run very fast");
+	}
+
+}

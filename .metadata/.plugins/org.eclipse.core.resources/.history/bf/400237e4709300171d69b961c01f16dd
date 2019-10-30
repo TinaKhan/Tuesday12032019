@@ -1,0 +1,12 @@
+package basics;
+
+public class basic1 {
+	
+	public void validateHeader()
+	{
+		System.out.println("Header liks validated");
+	}
+	
+	}
+
+

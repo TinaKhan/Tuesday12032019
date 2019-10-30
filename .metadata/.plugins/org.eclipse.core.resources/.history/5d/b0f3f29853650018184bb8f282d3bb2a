@@ -1,0 +1,31 @@
+package ratan_practise;
+
+ class Test {
+	 int m1()
+	 {
+System.out.println("m1 method");
+	return 10; 
+	  }
+	 float m2()
+	 {System.out.println("m2 method");
+	return 10.5f ;
+	 }
+	 static char m3()
+	
+	 {System.out.println("m3 method");
+	 return 'k';
+	 }
+	 
+	
+	public static void main(String[] args) {
+	
+	Test t=new Test();
+	int a=t.m1();
+	System.out.println(a);
+	float f=t.m2();
+	System.out.println("m2 method   " + f);
+	char ch=Test.m3();
+	System.out.println("m3 method  " + ch);
+	}
+
+}

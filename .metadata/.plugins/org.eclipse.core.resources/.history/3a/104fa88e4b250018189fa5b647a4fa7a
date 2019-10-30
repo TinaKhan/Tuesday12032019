@@ -1,0 +1,31 @@
+package foreachproject;
+
+public class Foreachproject {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String Studentname[]= {"john","kabu","sabu","rabu"};
+		for(int i=0;i<Studentname.length;i++)
+		{System.out.println("Studentnames are :"+Studentname[i]);
+		}
+		
+		System.out.println("***by using for-each***");
+		for(String name : studentName) {
+			System.out.println("Student Name : "+name);
+		}
+		
+
+		int table[]= {2, 4, 6, 8, 10, 12, 14,16, 18, 20};
+		for( int tab :table) {
+			System.out.println(tab);
+		}
+			
+	}
+
+//for(i=0;i<4;i++)
+
+	
+	
+
+

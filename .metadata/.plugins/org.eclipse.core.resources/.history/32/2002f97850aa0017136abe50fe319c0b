@@ -1,0 +1,22 @@
+package practice;
+
+import java.util.Scanner;
+
+public class Printsomething {
+	
+	static Scanner hp=new Scanner(System.in);
+	public static void main(String[] args) {
+		int a;
+		System.out.println("enter the value to know the number is even or odd");
+		a=hp.nextInt();
+		if (a%2==0)
+		{System.out.println("the number is even");
+		}
+		
+		else 
+		{System.out.println("the number is odd");
+		}
+		
+}
+}
+

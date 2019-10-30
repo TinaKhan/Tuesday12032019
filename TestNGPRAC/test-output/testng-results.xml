@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51739" started-at="2018-12-14T03:30:34Z" finished-at="2018-12-14T03:31:26Z">
+    <groups>
+      <group name="test">
+        <method signature="Facebook.test1()[pri:6, instance:com.test.Facebook@4cc0edeb]" name="test1" class="com.test.Facebook"/>
+        <method signature="Facebook.test3()[pri:5, instance:com.test.Facebook@4cc0edeb]" name="test3" class="com.test.Facebook"/>
+      </group> <!-- test -->
+      <group name="GoogleTitle">
+        <method signature="Facebook.googleTitleTest()[pri:1, instance:com.test.Facebook@4cc0edeb]" name="googleTitleTest" class="com.test.Facebook"/>
+      </group> <!-- GoogleTitle -->
+    </groups>
+    <test name="Default test" duration-ms="51739" started-at="2018-12-14T03:30:34Z" finished-at="2018-12-14T03:31:26Z">
+      <class name="com.test.Facebook">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.Facebook@4cc0edeb]" name="setup" is-config="true" duration-ms="8312" started-at="2018-12-14T03:30:34Z" finished-at="2018-12-14T03:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:1, instance:com.test.Facebook@4cc0edeb]" name="googleTitleTest" duration-ms="16" started-at="2018-12-14T03:30:42Z" finished-at="2018-12-14T03:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.Facebook@4cc0edeb]" name="teardown" is-config="true" duration-ms="990" started-at="2018-12-14T03:30:42Z" finished-at="2018-12-14T03:30:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.Facebook@4cc0edeb]" name="setup" is-config="true" duration-ms="8974" started-at="2018-12-14T03:30:43Z" finished-at="2018-12-14T03:30:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test2()[pri:1, instance:com.test.Facebook@4cc0edeb]" name="test2" duration-ms="0" started-at="2018-12-14T03:30:52Z" finished-at="2018-12-14T03:30:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.Facebook@4cc0edeb]" name="teardown" is-config="true" duration-ms="951" started-at="2018-12-14T03:30:52Z" finished-at="2018-12-14T03:30:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.Facebook@4cc0edeb]" name="setup" is-config="true" duration-ms="8117" started-at="2018-12-14T03:30:53Z" finished-at="2018-12-14T03:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="googlelogoTest()[pri:3, instance:com.test.Facebook@4cc0edeb]" name="googlelogoTest" duration-ms="68" started-at="2018-12-14T03:31:01Z" finished-at="2018-12-14T03:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlelogoTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.Facebook@4cc0edeb]" name="teardown" is-config="true" duration-ms="905" started-at="2018-12-14T03:31:01Z" finished-at="2018-12-14T03:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.Facebook@4cc0edeb]" name="setup" is-config="true" duration-ms="7423" started-at="2018-12-14T03:31:02Z" finished-at="2018-12-14T03:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="maillinktest()[pri:4, instance:com.test.Facebook@4cc0edeb]" name="maillinktest" duration-ms="56" started-at="2018-12-14T03:31:10Z" finished-at="2018-12-14T03:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maillinktest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.Facebook@4cc0edeb]" name="teardown" is-config="true" duration-ms="931" started-at="2018-12-14T03:31:10Z" finished-at="2018-12-14T03:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.Facebook@4cc0edeb]" name="setup" is-config="true" duration-ms="6512" started-at="2018-12-14T03:31:11Z" finished-at="2018-12-14T03:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test3()[pri:5, instance:com.test.Facebook@4cc0edeb]" name="test3" duration-ms="0" started-at="2018-12-14T03:31:17Z" finished-at="2018-12-14T03:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.Facebook@4cc0edeb]" name="teardown" is-config="true" duration-ms="857" started-at="2018-12-14T03:31:17Z" finished-at="2018-12-14T03:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.Facebook@4cc0edeb]" name="setup" is-config="true" duration-ms="6674" started-at="2018-12-14T03:31:18Z" finished-at="2018-12-14T03:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test1()[pri:6, instance:com.test.Facebook@4cc0edeb]" name="test1" duration-ms="0" started-at="2018-12-14T03:31:25Z" finished-at="2018-12-14T03:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.Facebook@4cc0edeb]" name="teardown" is-config="true" duration-ms="908" started-at="2018-12-14T03:31:25Z" finished-at="2018-12-14T03:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test.Facebook -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,27 @@
+package practice;
+
+import java.util.Scanner;
+
+public class Printsomething {
+	
+	
+	 static Scanner hp=new Scanner(System.in);
+		public static void main(String[] args) {
+		int i,n,multi=1;
+		System.out.println("Enter the value for a factorial number");
+		n=hp.nextInt();
+		for (i=n;i>=1;i--)
+		{
+			multi=multi*1;
+		}
+			
+		
+				
+  System.out.println(multi);
+}
+}
+
+	
+
+
+		

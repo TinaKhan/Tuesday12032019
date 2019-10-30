@@ -1,0 +1,18 @@
+package ratan_practise;
+class Test {
+    
+    Test()
+    {
+    	System.out.println("0-arg constructure");
+    }
+    Test(int a)
+    {System.out.println("1-arg constructue");
+    }
+    
+	 public static void main(String[] args) {
+		 Test t=new Test();
+		 Test t1=new Test(10);
+		 
+	
+ }
+}

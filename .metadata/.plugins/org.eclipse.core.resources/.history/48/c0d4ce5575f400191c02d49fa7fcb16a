@@ -1,0 +1,6 @@
+package abstraction;
+
+public interface Metronorth {
+	public void faster();
+
+}

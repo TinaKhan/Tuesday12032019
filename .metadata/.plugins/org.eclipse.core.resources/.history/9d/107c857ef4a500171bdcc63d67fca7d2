@@ -1,0 +1,30 @@
+package basics;
+
+public class Numberscalc {
+
+	public static void main(String[] args) 
+	{   System.out.println("program has started");
+		printName();
+	}
+		
+		
+		
+		
+		
+		
+		
+		static void printName()
+		{System.out.println("My name is Tanzi");
+		}
+		
+		//addNumbers()
+		//multiplyNumbers()
+	}
+	
+	
+	
+
+		
+	
+	
+

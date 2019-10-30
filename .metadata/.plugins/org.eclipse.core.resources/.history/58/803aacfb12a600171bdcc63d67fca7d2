@@ -1,0 +1,27 @@
+package basics;
+
+public class loops {
+
+	public static void main(String[] args) {
+	String[] states=new String[6];
+	states[0]="california";
+	states[1]="newyork";
+	states[2]="rhode island";
+	states[3]="delaware";
+	states[4]="virginia";
+	states[5]="maryland";
+     int i=0;
+     do
+     {System.out.println("states   " + states[i]);
+	  i=i+1;
+     } while (i<4);
+     int n=0;;
+     while(n<=5);
+     {
+     System.out.println("states at"+ n +states[n]);
+     }
+	
+	}
+	}
+
+

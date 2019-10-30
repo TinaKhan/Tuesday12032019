@@ -1,0 +1,35 @@
+package abstraction;
+
+public class BMW extends Subway implements Car, Drone {
+
+	@Override
+	public void start() {
+		System.out.println("bwm start with automatic key");
+		
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("bmw stop with automation key");
+		
+	}
+
+	@Override
+	public void brake() {
+		System.out.println("bmw has automatic brake");
+		
+	}
+
+	@Override
+	public void shape() {
+		System.out.println("spherical");
+		
+	}
+
+	@Override
+	public void ticket() {
+		System.out.println("we need ticket to ride");
+		
+	}
+
+}

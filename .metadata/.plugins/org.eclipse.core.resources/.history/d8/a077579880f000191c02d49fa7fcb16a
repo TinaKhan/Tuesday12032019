@@ -1,0 +1,9 @@
+package inheritanceOOP;
+
+public class Father {
+	public void fatherInfo() {
+
+		System.out.println("My name is Haque and I have 2 sons and 3 daughters");
+
+	}
+}

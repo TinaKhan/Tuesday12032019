@@ -1,0 +1,14 @@
+package basics;
+
+public class methods {
+	
+	public String validateHeader()
+	{
+		System.out.println("Header liks validated");
+		
+		return "pass";
+	}
+	
+	}
+
+

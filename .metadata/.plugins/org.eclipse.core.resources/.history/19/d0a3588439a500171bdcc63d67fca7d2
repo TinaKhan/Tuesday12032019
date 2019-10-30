@@ -1,0 +1,33 @@
+package basics;
+
+public class daysofweek {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String daysofweek="tuesday";
+		switch (daysofweek)
+		{
+		case "Monday":
+			
+		System.out.println("today is Monday");
+		break;
+		case "tuesday":
+		System.out.println("today is tuesday");
+		break;
+		case "wednesday":
+		System.out.println("today is wenesday");
+		case "thursday":
+		System.out.println("today is thursday");
+		case "friday":
+		System.out.println("today is tuesday");
+		
+		}
+		
+		
+		
+		
+		
+
+	}
+
+}

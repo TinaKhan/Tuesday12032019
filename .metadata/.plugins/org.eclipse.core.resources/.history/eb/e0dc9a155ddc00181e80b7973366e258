@@ -1,0 +1,22 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class maryland {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");	
+	WebDriver driver=new ChromeDriver();
+	driver.get("http://newtours.demoaut.com/mercuryregister.php");
+
+	driver.findElement(By.xpath("//input[@maxlength='60' and name='firstName']")).sendKeys("Tanzina");
+	driver.findElement(By.xpath("//input[@maxlength='60' and name='lastName']")).sendKeys("khan");
+	driver.findElement(By.xpath("//input[@maxlength='60' and name='phone']")).sendKeys("3472999764");
+	//driver.findElement(By.xpath("//input[@maxlength='64' and id='userName']")).sendKeys("Tanzina");
+	//driver.findElement(By.xpath("//input[@maxlength='60' and name='firstName']")).sendKeys("Tanzina");
+	//driver.findElement(By.xpath("//input[@maxlength='60' and name='firstName']")).sendKeys("Tanzina");
+
+	}
+
+}

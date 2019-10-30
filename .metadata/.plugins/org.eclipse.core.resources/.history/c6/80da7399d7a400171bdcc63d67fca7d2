@@ -1,0 +1,25 @@
+package basics;
+
+public class WeatherCal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int temperature;
+		temperature=60;
+		
+		if(temperature<80)
+		{System.out.println("seems like better");}
+		
+		else if (temperature<75)
+		{System.out.println("semms like you can stay home");
+			
+			
+		}
+		else 
+		{System.out.println("seems like feeling good");
+		
+
+	}
+
+}

@@ -1,0 +1,41 @@
+package polymorphismOOP;
+
+public class ModernCalculator extends LandCalculator{
+	
+	//Method overriding(same method same parameter but different syntax or logic)
+	//Late binding or dynamic binding or runtime polymorphism
+	@Override
+	public int areaOfLand(int a,int b) {
+		int total=a+b+5;
+		System.out.println("AreaOfland : "+total);
+		return total;
+		}
+	@Override
+	public int areaOfLand(int a,int b,int c) {
+		int total=a+b+c-3;
+		System.out.println("AreaOfland : "+total);
+		return total;
+		}
+	@Override
+	public int areaOfLand(int a,int b,String c) {
+		int total=a+b+(Integer.parseInt(c))+75;
+		System.out.println("AreaOfland : "+total);
+		return total;
+		}
+	//Final method can not be overriden(Because final method can not be changed)
+//	@Override
+//	public final int areaOfLand(int a,int b,int c,int d) {
+//		int total=a+b+c+d+22;
+//		System.out.println("AreaOfland : "+total);
+//		return total;
+//		}
+	
+	//Static method can not be overriden(Because static method is a common method in parent class)
+	//@Override
+//	public static  int areaOfLand(int a,int b,int c,int d,int e) {
+//		int total=a+b+c+d+e;
+//		System.out.println("AreaOfland : "+total);
+//		return total;
+//		}
+
+}

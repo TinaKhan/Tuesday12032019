@@ -1,0 +1,10 @@
+package testng;
+
+public class day1 {
+
+	public  void demo() {
+		// TODO Auto-generated method stub
+System.out.println("hello world");
+	}
+
+}

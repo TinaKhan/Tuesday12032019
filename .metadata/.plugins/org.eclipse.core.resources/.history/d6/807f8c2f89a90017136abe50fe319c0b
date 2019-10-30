@@ -1,0 +1,30 @@
+package practice;
+
+
+
+public class Printsomething {
+	
+	
+
+	public static void main(String[] args) {
+	 int a=20;
+	 
+	 if (a>20)
+	
+		 {
+	 System.out.println("hello");
+		 }
+	 else if (a>30)
+		 {System.out.println("hi");}
+		 
+		 else if (a>=20)
+		 {System.out.println("hi jan");}
+		
+		 else  
+		 
+		 {System.out.println("henry");}
+     
+	}
+	}
+
+

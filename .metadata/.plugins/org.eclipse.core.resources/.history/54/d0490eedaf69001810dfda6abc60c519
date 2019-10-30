@@ -1,0 +1,15 @@
+package ratan_practise;
+class Test  {
+	int eid;
+	{
+		eid=222;
+	}
+	void disp()
+	
+	{
+		System.out.println(eid);
+	}
+	 public static void main(String[] args) {
+	new Test().disp();
+ }
+}

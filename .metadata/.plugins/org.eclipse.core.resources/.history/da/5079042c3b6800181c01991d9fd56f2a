@@ -1,0 +1,14 @@
+package ratan_practise;
+class Test  {
+	Test()
+	{
+	System.out.println("0-arg constructure");
+	}
+	{
+	System.out.println("instance block");
+	}
+	 public static void main(String[] args) {
+		 
+	new Test();
+ }
+}

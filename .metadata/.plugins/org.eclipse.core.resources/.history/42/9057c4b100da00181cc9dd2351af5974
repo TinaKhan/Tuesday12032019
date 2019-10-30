@@ -1,0 +1,18 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class prac_face {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		WebDriver driver=new ChromeDriver();
+		driver.get("http://www.google.com");
+		System.out.println(driver.getTitle());
+		driver.get("http://www.facebook.com");
+		//driver.findElement(By.ByCssSelector(""))
+
+	}
+
+}

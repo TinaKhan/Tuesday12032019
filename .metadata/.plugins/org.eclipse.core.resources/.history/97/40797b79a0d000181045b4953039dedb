@@ -1,0 +1,13 @@
+package TestCases;
+
+public class OpenHomepage {
+	public static void main(String[] args) {
+	
+		System.setProperty(key, value)
+		WebDriver driver=new ChromeDriver();
+				driver.get("http://www.facebook.com");
+				
+		
+	}
+
+}

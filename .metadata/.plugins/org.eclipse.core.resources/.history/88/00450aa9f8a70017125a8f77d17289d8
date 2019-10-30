@@ -1,0 +1,18 @@
+package demojava;
+
+public class object {
+
+	public static void main(String[] args) {
+		object mark=new object();
+		mark.id=1;
+		mark.Name="Mark";
+		mark.age=15;
+		
+		
+		
+		
+		
+
+	}
+
+}

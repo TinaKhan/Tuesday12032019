@@ -1,0 +1,12 @@
+package basics;
+
+public class cities {
+
+	public static void main(String[] args) {
+		
+		String [] cities= {"newyork","michigan","delware","maryland","virginia"};
+		System.out.println(cities[0]);
+
+	}
+
+}

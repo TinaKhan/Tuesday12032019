@@ -1,0 +1,30 @@
+package ratan_practise;
+class Test  {
+	int a=10;
+	static int b=10;
+	void m1(int a)
+	{System.out.println("m1 method");
+		}
+	static void m2(String str)
+	{System.out.println("m2 method");
+	}
+	
+	Test ()
+	{System.out.println("0-arg constructure");
+	}
+	Test (int a)
+	{System.out.println("1-arg constructure");
+	
+	}
+	{System.out.println("instance block");
+	}
+	static 
+	{System.out.println("static block");
+	}
+	public static void main(String[] args) {
+	Test t=new Test();
+	t.m1(100);
+	Test t1=new Test(10);
+	Test.m2("lubna");
+ }
+	}

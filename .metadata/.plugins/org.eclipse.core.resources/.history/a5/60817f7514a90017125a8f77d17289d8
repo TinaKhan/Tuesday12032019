@@ -1,0 +1,19 @@
+package practice;
+
+import java.util.Scanner;
+
+public class Printsomething {
+	
+	static Scanner hp=new Scanner(System.in);
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       int a;
+       System.out.println("Enter a value");
+       a=hp.nextInt();
+       
+       System.out.println(a);
+     45
+	}
+
+}

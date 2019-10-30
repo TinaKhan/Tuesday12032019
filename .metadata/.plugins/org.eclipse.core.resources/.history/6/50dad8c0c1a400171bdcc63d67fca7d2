@@ -1,0 +1,22 @@
+package basics;
+
+public class SalaryCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String career;
+		career="software developer";
+		System.out.println("progress has started");
+		int hoursperweek=40;
+		int hoursperyear=50;
+		double rate=45.52;
+		double salary=hoursperweek*hoursperyear*rate;
+		
+		System.out.println("my career is as a"+career+"the rate is"+salary);
+		
+				
+
+	}
+
+}

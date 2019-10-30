@@ -1,0 +1,14 @@
+package encapsulationOOP;
+
+public class TestEmployee {
+
+	public static void main(String[] args) {
+		Employee emp1 = new Employee();
+		emp1.setName("Tanzina Khan");
+		emp1.setEmpID(21234);
+		emp1.setSex('F');
+		emp1.setFullTimeEmp(true);
+
+	}
+
+}

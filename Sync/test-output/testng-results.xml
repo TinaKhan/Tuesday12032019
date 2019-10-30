@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="322" started-at="2018-11-10T03:14:07Z" finished-at="2018-11-10T03:14:07Z">
+    <groups>
+    </groups>
+    <test name="Personal Loan" duration-ms="108" started-at="2018-11-10T03:14:07Z" finished-at="2018-11-10T03:14:07Z">
+      <class name="test.day4">
+        <test-method status="PASS" signature="Homelogincar()[pri:0, instance:test.day4@7dc7cbad]" name="Homelogincar" duration-ms="3" started-at="2018-11-10T03:14:07Z" finished-at="2018-11-10T03:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homelogincar -->
+        <test-method status="PASS" signature="Homemobilelogin()[pri:0, instance:test.day4@7dc7cbad]" name="Homemobilelogin" duration-ms="2" started-at="2018-11-10T03:14:07Z" finished-at="2018-11-10T03:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homemobilelogin -->
+        <test-method status="PASS" signature="homeAppiumlogin()[pri:0, instance:test.day4@7dc7cbad]" name="homeAppiumlogin" duration-ms="7" started-at="2018-11-10T03:14:07Z" finished-at="2018-11-10T03:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeAppiumlogin -->
+      </class> <!-- test.day4 -->
+      <class name="test.day2">
+        <test-method status="PASS" signature="Day2()[pri:0, instance:test.day2@5419f379]" name="Day2" duration-ms="6" started-at="2018-11-10T03:14:07Z" finished-at="2018-11-10T03:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Day2 -->
+      </class> <!-- test.day2 -->
+      <class name="test.day1">
+        <test-method status="PASS" signature="Day1()[pri:0, instance:test.day1@735b5592]" name="Day1" duration-ms="20" started-at="2018-11-10T03:14:07Z" finished-at="2018-11-10T03:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Day1 -->
+        <test-method status="PASS" signature="Demo()[pri:0, instance:test.day1@735b5592]" name="Demo" duration-ms="4" started-at="2018-11-10T03:14:07Z" finished-at="2018-11-10T03:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Personal Loan -->
+    <test name="car Loan" duration-ms="21" started-at="2018-11-10T03:14:07Z" finished-at="2018-11-10T03:14:07Z">
+      <class name="test.day3">
+        <test-method status="PASS" signature="Appiumlogin()[pri:0, instance:test.day3@523884b2]" name="Appiumlogin" duration-ms="12" started-at="2018-11-10T03:14:07Z" finished-at="2018-11-10T03:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appiumlogin -->
+        <test-method status="PASS" signature="weblogincar()[pri:0, instance:test.day3@523884b2]" name="weblogincar" duration-ms="2" started-at="2018-11-10T03:14:07Z" finished-at="2018-11-10T03:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogincar -->
+      </class> <!-- test.day3 -->
+    </test> <!-- car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

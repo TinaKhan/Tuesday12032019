@@ -1,0 +1,14 @@
+package basics;
+
+public class Numberscalc {
+
+	public static void main(String[] args) 
+	{   printName();
+	System.out.println("program has started");
+	
+	}
+      
+	static void printName()
+{System.out.println("my name is tanzi");
+	}
+}

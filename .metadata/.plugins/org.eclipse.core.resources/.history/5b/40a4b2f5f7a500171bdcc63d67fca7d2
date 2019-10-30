@@ -1,0 +1,33 @@
+package basics;
+
+public class daysofweek {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String monthofYear="march";
+		switch (monthofYear)
+		{
+		case "january":
+		System.out.println("the current month is january");
+		case "february":
+			System.out.println("the current month is february");
+		case "march":
+			System.out.println("the current month is march");
+		case "april":
+			System.out.println("the current month is april");
+		case "may":
+			System.out.println("the current month is may");
+		case "june":
+			System.out.println("the current month is june");
+		case "july":
+			System.out.println("the current month is july");
+		case "august":
+			System.out.println("the current month is august");
+		
+		
+		
+	
+}
+	}
+}
+

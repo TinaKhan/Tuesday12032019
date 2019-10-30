@@ -1,0 +1,11 @@
+package demojava;
+
+public class prac {
+
+	int id;
+	String Name;
+	int age;
+
+	}
+
+

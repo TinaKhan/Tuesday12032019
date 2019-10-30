@@ -1,0 +1,9 @@
+package ratan_practise;
+
+public class C {
+	static 
+	{System.out.println("static block-C");
+	}
+	
+
+}

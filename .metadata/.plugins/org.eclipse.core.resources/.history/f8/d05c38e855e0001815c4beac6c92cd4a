@@ -1,0 +1,23 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class webelementverification {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chromedriver.driver","C:\\chromedriver");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://booking.kayak.com/?&sid=81a6c4247f6dda457d4e713d19d90491/");
+System.out.println("Before clicking the Flight Button");
+System.out.println(driver.findElement(By.xpath("//*[@id=\'QVrf-origin\']")).isDisplayed());
+int count=driver.findElements(By.xpath("//*[@id=\"c4mwP-roundtrip-label\"]/span")).size();
+if (count==0);
+{
+	System.out.println("verified");
+}
+}
+
+	}
+
+

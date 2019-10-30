@@ -1,0 +1,33 @@
+package ratan_practise;
+class Emp{}
+class X{}
+
+ class Test {
+	Emp m1()
+	{  Emp e=new Emp();
+		System.out.println("m1 method");
+	return e;
+	}
+	X m2()
+	{X x=new X();
+	System.out.println("m2 method");
+	return x;
+	}
+	static String m3()
+	
+	{System.out.println("m3 method");
+	return "tanzina";
+	}
+	
+	public static void main(String[] args) {
+		Test t=new Test();
+		Emp e1=t.m1();
+		System.out.println(e1);
+		X x1=t.m2();
+		System.out.println(x1);
+		String str=Test.m3();
+		System.out.println(str);
+		
+	}
+
+}

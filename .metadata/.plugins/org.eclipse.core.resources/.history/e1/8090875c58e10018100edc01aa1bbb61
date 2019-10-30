@@ -1,0 +1,26 @@
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class prac_sync {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://bookin.com");
+		driver.manage().window().maximize();
+		driver.findElement(By.id("ss")).sendKeys("nyc");
+		driver.findElement(By.id("ss")).sendKeys(Keys.TAB);
+		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+		driver.findElement(By.className("sb-date-field__icon sb-date-field__icon-btn bk-svg-wrapper calendar-restructure-sb ")).sendKeys(Keys.TAB);
+		driver.findElement(By.className("xp__guests__count")).sendKeys(Keys.TAB);
+		//driver.findElement(By.id("xp__guests__toggle")).click();
+		
+
+	}
+
+}
