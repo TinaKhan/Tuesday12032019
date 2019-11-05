@@ -13,7 +13,6 @@ public class TestCalculator {
 		
 		ModernCalculator mc = new ModernCalculator();
 		mc.areaOfLand(200, 100);
-		mc.areaOfLand(200, "75");
 		mc.areaOfLand(200, 100, 50);
 		mc.areaOfLand(200, 100, "40");
 		

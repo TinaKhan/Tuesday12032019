@@ -11,9 +11,10 @@ public class LandCalculator {
 		}
 	public int areaOfLand(int a,String b) {
 		int total=a+(Integer.parseInt(b));
-		System.out.println("AreaOfLand : "+total);
+		System.out.println("AreaOfLand :  "+total);
 		return total;
-		}
+		
+	}
 	public int areaOfLand(int a,int b,int c) {
 		int total=a+b+c;
 		System.out.println("AreaOfland : "+total);
