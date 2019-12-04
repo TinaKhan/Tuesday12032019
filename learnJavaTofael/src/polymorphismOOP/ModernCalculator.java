@@ -17,14 +17,14 @@ public class ModernCalculator extends LandCalculator{
 		return total;
 		}
 	@Override
-	public int areaOfLand(int a,int b,int c) {
-		int total=a+b+c-3;
+	public int areaOfLand(int a,int b,String c) {
+		int total=a+b+(Integer.parseInt(c))+25;
 		System.out.println("AreaOfland : "+total);
 		return total;
 		}
 	@Override
-	public int areaOfLand(int a,int b,String c) {
-		int total=a+b+(Integer.parseInt(c))+75;
+	public int areaOfLand(int a,int b,int d) {
+		int total=a+b+d+75;
 		System.out.println("AreaOfland : "+total);
 		return total;
 		}

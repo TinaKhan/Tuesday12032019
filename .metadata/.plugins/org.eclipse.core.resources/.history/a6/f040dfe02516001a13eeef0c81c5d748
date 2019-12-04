@@ -1,0 +1,15 @@
+package useOfLoop;
+
+public class UseOfWhileLoop {
+
+	public static void main(String[] args) {
+		int i=1;
+		while(i<=10)//when the condition is true, the loop started
+		{
+			System.out.println(i);
+			i++;
+		}
+
+	}
+
+}

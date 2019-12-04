@@ -1,9 +1,0 @@
-package inheritanceOOP;
-
-public class Grandfather {
-System.out.println("My name is Seraj.I have 2 sons and 1 daughter");
-
-}
-
-
-

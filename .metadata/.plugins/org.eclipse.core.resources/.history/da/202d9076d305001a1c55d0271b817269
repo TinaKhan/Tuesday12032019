@@ -1,0 +1,16 @@
+package webElements;
+
+public class WebElements {
+
+	public static void main(String[] args) {
+		//Amazon search field
+		//input[@id='twotabsearchtextbox']
+		//tag[@id='  ']
+		//tag[@class='  ']
+		//tag[@name='  ']
+		//tag[@id='  ' and @class=' ' and @name=' ']
+		//tag[@id='  ' or @class=' ' or  @name=' ']
+
+	}
+
+}
