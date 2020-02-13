@@ -1,6 +1,6 @@
 package collectionFramework;
 
-public class UseOfArrayprac02 {
+public class UseOfArray02 {
 
 	public static void main(String[] args) {
 		int []a=new int [7];
@@ -16,6 +16,12 @@ public class UseOfArrayprac02 {
 	System.out.println("The printing value of 4th is :"+a[3]);
 	System.out.println("The printing value of 5th is :"+a[4]);
 	System.out.println("The printing value of 6th is :"+a[5]);
+	System.out.println("The size of the the array is  :"+a.length);
+	// print all index value:
+	System.out.println("Printing all index value of Array a");
+	for(int i=0;i<a.length;i++) {
+		System.out.println(a[i]);//ask tofael vi 
+	}
 	}
 	
 
